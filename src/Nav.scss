@@ -1,0 +1,29 @@
+.Nav-wrap {
+  background-color: #000000;
+  height: 3rem;
+  align-content: center;
+}
+
+.Nav-list {
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 auto;
+  width: 20rem;
+}
+
+.Nav-list-item {
+  align-self: center;
+  height: 2rem;
+}
+
+.Nav-link {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  &:visited {
+    color: white;
+  }
+}
