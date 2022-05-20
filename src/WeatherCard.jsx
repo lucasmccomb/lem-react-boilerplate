@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Dashboard.scss";
 
-const ZIP_CODE = "06098";
+const ZIP_CODE = "06094";
 
 const WeatherCard = () => {
   const [weatherInfo, setWeatherInfo] = useState({});
