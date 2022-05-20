@@ -1,12 +1,16 @@
 import React from "react";
-import logo from "./logo.svg";
+import "./Dashboard.scss";
+import WeatherCard from "./WeatherCard";
 
 const Dashboard = () => {
   return (
-    <div className="Dashboard">
+    <div className="Dashboard-wrap">
       <header className="Dashboard-header">
         <h1>Dashboard</h1>
       </header>
+      <div>
+        <WeatherCard />
+      </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import "./About.scss";
 
 const About = () => {
   return (
-    <div className="About">
+    <div className="About-wrap">
       <h1>Based off create-react-app</h1>
     </div>
   );
